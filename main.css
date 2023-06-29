@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --var-color-bg: #525466;
+    --var-color-bg-card: #648abba2;
+    --var-color-button: white;
+}
+
+body {
+    background: var(--var-color-bg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 5%;
+    background: var(--var-color-bg-card);
+    padding: 5px;
+    border-radius: 8px;
+}
+.calc-line {
+    display: flex;
+}
+
+.calc-line button {
+    background: var(--var-color-button);
+    padding: 7px;
+    margin: 4px;
+    height: 40px;
+    width: calc(100%/4);
+    border: none;
+    border-radius: 4px;
+    font-weight: 800;
+    color: #525466;
+}
+.calc-line button:focus {
+    background: var(--var-color-bg);
+    color: white;
+}
+
+input[type=text] {
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    font-weight: 800;
+    color: #525466;
+    height: 30px;
+}
+
+

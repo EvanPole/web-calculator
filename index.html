@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+
+    <div class="main-container">
+        <input type="text" id="calcbox" placeholder="0">
+        <div class="calc-line">
+            <button id="/" onclick="addcalc('/');">/</button>
+            <button id="*" onclick="addcalc('*');">*</button>
+            <button id="^" onclick="addcalc('^');">^</button>
+            <button id="c" onclick="addcalc('c');">c</button>
+        </div>
+        <div class="calc-line">
+            <button id="7" onclick="addcalc('7');">7</button>
+            <button id="8" onclick="addcalc('8');">8</button>
+            <button id="9" onclick="addcalc('9');">9</button>
+            <button id="+" onclick="addcalc('+');">+</button>
+        </div>
+        <div class="calc-line">
+            <button id="4" onclick="addcalc('4');">4</button>
+            <button id="5" onclick="addcalc('5');">5</button>
+            <button id="6" onclick="addcalc('6');">6</button>
+            <button id="-" onclick="addcalc('-');">-</button>
+        </div>
+        <div class="calc-line">
+            <button id="1" onclick="addcalc('1');">1</button>
+            <button id="2" onclick="addcalc('2');">2</button>
+            <button id="3" onclick="addcalc('3');">3</button>
+            <button id="=" onclick="addcalc('=');">=</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
